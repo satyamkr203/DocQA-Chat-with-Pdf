@@ -22,6 +22,6 @@ export function registerApi(email: string, password: string) {
       method: "POST",
       body: JSON.stringify({ email, password }),
     },
-    null // No token needed for auth endpoints
+    null
   );
 }
